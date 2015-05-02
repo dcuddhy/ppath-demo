@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  font-family: arial;
+}
+
+.nav{
+  background: white;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  width: 100%;
+  text-align: left;
+  z-index: 100;
+  padding: 10px;
+}
+
+.section {
+    position:relative;
+    z-index:1;
+    height:700px;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.content {
+    padding: 10px;
+    position:relative;
+    z-index:2;
+    background-color:#fff;
+    height:50%;    /* this height difference allows the bg to show through */
+}
+
+.content#c1{
+  height: 700px;
+  background: blue;
+  color: red;
+}
+
+.content#c2{
+  height: 150px;
+  background: #101D40;
+  color: white;
+}
+
+.content#c3{
+  height: 700px;
+  background: white;
+  color: black;
+}
+
+.content#c4{
+  height: 0;
+  padding: 0;
+}
+
+.content#c5{
+  height: 560px;
+}
+
+.section#s1 {
+    background-image: url("assets/backdrops/sykline_praytino.jpg");
+    height: 550px;
+}
+.section#s2 {
+    background-image: url(http://farm5.staticflickr.com/4135/4820238049_8e830ec494_b.jpg);
+    height: 170px;
+}
+.section#s3 {
+    background-image: url(http://farm5.staticflickr.com/4015/4589449172_eb046a7f2a_b.jpg);
+}
+.section#s4 {
+    background-image: url("assets/backdrops/sykline_danielle_scott.jpg");
+}
+.section#s5 {
+    background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
+    height: 560px;
+}
+
+.thumbnail{
+  width: 320px;
+  height: 275px;
+  display: inline-block;
+  border: 1px solid red;
+  margin: 10px;
+  
+}
+
+.thumbnail img{
+  width: 320px;
+}
+
+.footer{
+  background: whitesmoke;
+  border-top: 1px solid teal;
+  text-align: left;
+  position: relative;
+  z-index: 50;
+  top: 700;
+  padding: 10px;
+}

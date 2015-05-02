@@ -19,11 +19,12 @@ body div{
 }
 .banner-drop{
   display: block;
-  position: relative;
+  position: fixed;
+  width: 100%;
   background: cornsilk;
   border: 1px solid navy;
   background-image: url("assets/backdrops/sykline_praytino.jpg");
-  background-size: 1600px auto;
+  min-background-size: 1600px auto;
   background-position: bottom;
   background-repeat: no-repeat;
   height: 90%;
@@ -33,17 +34,25 @@ body div{
 .banner{
   background: cornsilk;
   border: 1px solid navy;
+  position: relative;
   z-index: 20;
+  top: 700;
 }
 
 .solutions{
   background: lightskyblue;
   border: 1px solid sienna;
+  position: relative;
+  z-index: 30;
+  top: 700;
 }
 
 .locations{
   background: khaki;
   border: 1px solid indigo;
+  position: relative;
+  z-index: 40;
+  top: 700;
 }
 
 .thumbnail{
@@ -53,6 +62,7 @@ body div{
   border: 1px solid red;
   margin: 10px;
   overflow: hidden;
+  top: 700;
 }
 
 .thumbnail img{
@@ -63,4 +73,7 @@ body div{
   background: whitesmoke;
   border: 1px solid teal;
   text-align: left;
+  position: relative;
+  z-index: 50;
+  top: 700;
 }
