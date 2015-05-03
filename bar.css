@@ -2,7 +2,8 @@
 
 body{
   margin: 0;
-  font-family: arial;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
 }
 
 .nav{
@@ -44,6 +45,12 @@ body{
   background: #101D40;
   color: white;
   opacity: .95;
+}
+
+#c2 .header{
+  font-size: 32pt;
+  font-weight: bold;
+  margin-bottom: 8pt;
 }
 
 .content#c3{
@@ -122,4 +129,8 @@ body{
   z-index: 50;
   top: 700;
   padding: 10px;
+}
+
+em{
+  font-style: italic;
 }
