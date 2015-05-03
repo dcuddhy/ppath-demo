@@ -1,3 +1,5 @@
+@import '_reset.css';
+
 body{
   margin: 0;
   font-family: arial;
@@ -5,7 +7,7 @@ body{
 
 .nav{
   background: white;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
   position: fixed;
   width: 100%;
   text-align: left;
@@ -41,12 +43,14 @@ body{
   height: 150px;
   background: #101D40;
   color: white;
+  opacity: .95;
 }
 
 .content#c3{
   height: 700px;
   background: white;
   color: black;
+  text-align: center;
 }
 
 .content#c4{
@@ -63,7 +67,7 @@ body{
     height: 550px;
 }
 .section#s2 {
-    background-image: url(http://farm5.staticflickr.com/4135/4820238049_8e830ec494_b.jpg);
+    background-image: url("assets/backdrops/sykline_praytino.jpg");
     height: 170px;
 }
 .section#s3 {
@@ -75,19 +79,39 @@ body{
 .section#s5 {
     background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
     height: 560px;
+    text-align: center;
 }
 
 .thumbnail{
   width: 320px;
   height: 275px;
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid lightgrey;
   margin: 10px;
-  
+  overflow: hidden;
+
 }
 
 .thumbnail img{
   width: 320px;
+}
+
+.info-tile{
+  display: inline-block;
+  height: 350px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.info-tile .header{
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
 }
 
 .footer{
