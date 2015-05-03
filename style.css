@@ -1,79 +1,185 @@
-html, body{
+@import '_reset.css';
+
+body{
   margin: 0;
-  font-family: arial;
-  height: 100%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+  color: #555;
 }
-
-body div{
-  text-align: center;
-}
-
 
 .nav{
-  background: pink;
-  border: 1px solid grey;
+  background: white;
+  border-bottom: 1px solid lightgrey;
   position: fixed;
   width: 100%;
   text-align: left;
   z-index: 100;
-}
-.banner-drop{
-  display: block;
-  position: fixed;
-  width: 100%;
-  background: cornsilk;
-  border: 1px solid navy;
-  background-image: url("assets/backdrops/sykline_praytino.jpg");
-  min-background-size: 1600px auto;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 90%;
-  z-index: 10;
+  padding: 10px;
 }
 
-.banner{
-  background: cornsilk;
-  border: 1px solid navy;
-  position: relative;
-  z-index: 20;
-  top: 700;
+.nav a{
+  font-size: 15pt;
+  text-decoration: none;
+  padding-left: 25px;
+  vertical-align:60%;
+  color: #555;
 }
 
-.solutions{
-  background: lightskyblue;
-  border: 1px solid sienna;
-  position: relative;
-  z-index: 30;
-  top: 700;
+.section {
+    position:relative;
+    z-index:1;
+    height:700px;
+    width:100%;
+    background-attachment:fixed;    /* this keeps the background in place */
+    background-size:100% 100%;
+    background-repeat:no-repeat;
 }
 
-.locations{
-  background: khaki;
-  border: 1px solid indigo;
-  position: relative;
-  z-index: 40;
-  top: 700;
+.content {
+    padding: 10px;
+    position:relative;
+    z-index:2;
+    background-color:#fff;
+    height:50%;    /* this height difference allows the bg to show through */
+}
+
+.title{
+  color: white;
+  background: teal;
+  border: 10px solid teal;
+  margin: 40px -10px -10px -10px;
+  opacity: .95;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+#c5 .title{
+  margin: -150px -10px 20px -10px;
+
+}
+
+.title span, .header span{
+  font-size: 12pt;
+  font-weight: 300;
+}
+
+.content#c1{
+  height: 700px;
+  background: blue;
+  color: red;
+}
+
+.content#c2, .content#c2b{
+  height: 150px;
+  background: #101D40;
+  color: white;
+  opacity: .95;
+  text-align: center;
+}
+
+#c2 .header, #c3 .title, #s2b .header{
+  font-size: 30pt;
+  font-weight: bold;
+  margin-bottom: 8pt;
+}
+
+.content#c3{
+  height: 700px;
+  background: lightgrey;
+  text-align: center;
+}
+
+.content#c4{
+  height: 0;
+  padding: 0;
+}
+
+.content#c5{
+  height: 580px;
+}
+
+.section#s1 {
+    background-image: url("assets/backdrops/sykline_praytino.jpg");
+    height: 550px;
+}
+.section#s2 {
+    background-image: url("assets/backdrops/sykline_praytino.jpg");
+    height: 170px;
+}
+
+.section#s3 {
+    background-image: url(http://farm5.staticflickr.com/4015/4589449172_eb046a7f2a_b.jpg);
+}
+.section#s4 {
+    background-image: url("assets/backdrops/sykline_danielle_scott.jpg");
+}
+.section#s5 {
+    background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
+    height: 580px;
+    text-align: center;
 }
 
 .thumbnail{
   width: 320px;
   height: 275px;
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid lightgrey;
   margin: 10px;
   overflow: hidden;
-  top: 700;
+  background: white;
 }
 
 .thumbnail img{
   width: 320px;
 }
 
+.info-tile{
+  display: inline-block;
+  height: 400px;
+  width: 200px;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 60px 10px 10px 10px;
+  overflow: hidden;
+  background: white;
+}
+
+.info-tile .header{
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
 .footer{
   background: whitesmoke;
-  border: 1px solid teal;
+  border-top: 1px solid teal;
   text-align: left;
   position: relative;
   z-index: 50;
   top: 700;
+  padding: 10px;
+}
+
+em{
+  font-style: italic;
+}
+
+
+
+
+.content#c2b{
+  display: hidden;
+  height: 200px;
+  color: white;
+  opacity: .95;
+  text-align: center;
+  background: teal;
+}
+
+.section#s2b {
+    background-image: url("assets/backdrops/sykline_praytino.jpg");
+    height: 200px;
+    color: white;
 }
