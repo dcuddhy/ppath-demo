@@ -44,6 +44,26 @@ body{
     height:50%;    /* this height difference allows the bg to show through */
 }
 
+.title{
+  color: white;
+  background: teal;
+  border: 10px solid teal;
+  margin: 40px -10px -10px -10px;
+  opacity: .95;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+#c5 .title{
+  margin: -150px -10px 20px -10px;
+
+}
+
+.title span{
+  font-size: 12pt;
+  font-weight: 300;
+}
+
 .content#c1{
   height: 700px;
   background: blue;
@@ -58,7 +78,7 @@ body{
   text-align: center;
 }
 
-#c2 .header{
+#c2 .header, #c3 .title{
   font-size: 30pt;
   font-weight: bold;
   margin-bottom: 8pt;
@@ -66,7 +86,7 @@ body{
 
 .content#c3{
   height: 700px;
-  background: white;
+  background: lightgrey;
   text-align: center;
 }
 
@@ -76,7 +96,7 @@ body{
 }
 
 .content#c5{
-  height: 560px;
+  height: 580px;
 }
 
 .section#s1 {
@@ -95,7 +115,7 @@ body{
 }
 .section#s5 {
     background-image: url(http://farm4.staticflickr.com/3073/3090985991_8d4b559d29_o.jpg);
-    height: 560px;
+    height: 580px;
     text-align: center;
 }
 
@@ -106,7 +126,7 @@ body{
   border: 1px solid lightgrey;
   margin: 10px;
   overflow: hidden;
-
+  background: white;
 }
 
 .thumbnail img{
@@ -115,13 +135,13 @@ body{
 
 .info-tile{
   display: inline-block;
-  height: 350px;
+  height: 400px;
   width: 200px;
   border: 1px solid lightgrey;
   padding: 10px;
-  margin: 10px;
+  margin: 60px 10px 10px 10px;
   overflow: hidden;
-  text-align: left;
+  background: white;
 }
 
 .info-tile .header{
