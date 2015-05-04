@@ -129,14 +129,13 @@ a:hover{
 
 .thumbnail a i{
   transition: .25s ease;
-  padding: 5px 10px;
+  padding: 5px 2px 0 10px;;
   font-size: 15pt;
   line-height: 70%;
 }
 
-.thumbnail a i:hover{
-  font-size: 15pt;
-  color: teal;
+.thumbnail a span:hover{
+  font-size: 102%;
   text-decoration: none;
 }
 
