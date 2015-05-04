@@ -153,7 +153,10 @@
 /* # # # # # Media Queries @ 667px # # # # # */
 
 @media (max-width: 667px) {
-  #s3{
+  .content#c2{
+    height: 250px;
+  }
+  .content#c3#s3{
     height: 1140px;
   }
   .content#c3{
@@ -163,8 +166,8 @@
     height: 190px;
     margin-top: -220px;
   }
-  .content#c2{
-    height: 250px;
+  .section#s4 {
+    background-position: 25% 75%;
   }
   .content#c5{
     height: 4700px;
