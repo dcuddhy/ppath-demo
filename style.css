@@ -57,7 +57,7 @@ a:hover{
 
 .thumbnail{
   width: 320px;
-  height: 275px;
+  height: 320px;
   display: inline-block;
   border: 1px solid lightgrey;
   margin: 10px;
@@ -68,6 +68,7 @@ a:hover{
 .thumbnail img{
   width: 320px;
 }
+
 
 .info-tile{
   display: inline-block;
@@ -97,12 +98,47 @@ a:hover{
   color: teal;
 }
 
-.header i, span a i{
+.nav a i, .thumbnail a i{
   transition: color .25s ease;
   margin: 7px 0 20px 0;
-  border-bottom: 3px solid white;
+  text-decoration: none;
 }
 
+.nav a i{
+  border-bottom: 5px solid white;
+}
+
+.button{
+  display: inline-block;
+  width: 100%;
+  margin: 8px -2px 0 -2px;
+  background: #101D40;
+  opacity: .95;
+  color: white;
+}
+
+.line{
+  border-bottom: 1px solid white;
+  transition: .25s ease;
+}
+
+.line:hover{
+  border-bottom: 1px solid teal;
+  transition: .25s ease;
+}
+
+.thumbnail a i{
+  transition: .25s ease;
+  padding: 5px 10px;
+  font-size: 15pt;
+  line-height: 70%;
+}
+
+.thumbnail a i:hover{
+  font-size: 15pt;
+  color: teal;
+  text-decoration: none;
+}
 
 .header i{
   font-size: 48pt;
