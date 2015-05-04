@@ -166,6 +166,15 @@ em{
   margin: 22px 25px 0 0;
 }
 
+#locations{
+  position:absolute;
+  top:-80px;
+}
+
+#solutions{
+  position:absolute;
+  top:100px;
+}
 
 /* # # # # # Media Queries @ 1244px # # # # # */
 

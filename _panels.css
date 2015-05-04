@@ -147,6 +147,9 @@
   .content#c2{
     height: 200px;
   }
+  .section#s4 {
+    background-position: 25% 75%;
+  }
 }
 
 
@@ -165,9 +168,6 @@
   #c3 .title, #c5 .title {
     height: 190px;
     margin-top: -220px;
-  }
-  .section#s4 {
-    background-position: 25% 75%;
   }
   .content#c5{
     height: 4700px;
