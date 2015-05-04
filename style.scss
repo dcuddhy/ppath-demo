@@ -2,7 +2,6 @@
 @import '_panels.css';
 @import '_1244px.css';
 
-
 /* # # # # # General Stylings # # # # # */
 
 body{
@@ -83,6 +82,10 @@ a:hover{
   margin: 20px 10px 10px 10px;
   overflow: hidden;
   background: white;
+  @media (max-width: 800px) {
+    background: purple;
+    border: 10px solid green;
+  }
 }
 
 .info-tile .header{
@@ -187,9 +190,8 @@ em{
   .info-tile{
     display: inline-block;
     height: 200px;
-    width: 400px;
+    width: 340px;
     margin-top: 10px;
-    font-size: 1em;
   }
   .info-tile:nth-of-type(2){
     display: block;
@@ -198,82 +200,16 @@ em{
 }
 
 
-/* # # # # # Media Queries @ 1053px # # # # # */
+/* # # # # # Media Queries @ 600px # # # # # */
 
-@media (max-width: 1053px) {
-  .thumbnail{
-    width: 400px;
-    height: 365px;
-  }
-  .thumbnail img{
-    width: 400px;
-  }
-}
-
-
-/* # # # # # Media Queries @ 907px # # # # # */
-
-@media (max-width: 907px) {
-  .info-tile{
-    margin: 0 auto;
-    display: inline-block;
-    height: 180px;
-    width: 600px;
-    margin-top: 10px;
-    font-size: 11pt;
-  }
-
-@media (max-width: 907px) {
-  .thumbnail{
-    width: 300px;
-    height: 305px;
-  }
-  .thumbnail img{
-    width: 300px;
-  }
-}
-
-
-
-/* # # # # # Media Queries @ 667px # # # # # */
-
-@media (max-width: 667px) {
-  .info-tile{
-    margin: 0 auto;
-    display: inline-block;
-    height: 200px;
-    width: 350px;
-    margin-top: 10px;
-    font-size: 11pt;
-  }
-@media (max-width: 667px) {
-  .thumbnail{
-    width: 400px;
-    height: 365px;
-  }
-  .thumbnail img{
-    width: 400px;
-  }
-}
-
-
-/* # # # # # Media Queries @ 460px # # # # # */
-
-@media (max-width: 460px) {
-  .info-tile{
-    margin: 0 auto;
-    display: inline-block;
-    height: 200px;
-    width: 350px;
-    margin-top: 10px;
-    font-size: 11pt;
-  }
-@media (max-width: 460px) {
-  .thumbnail{
-    width: 350px;
-    height: 335px;
-  }
-  .thumbnail img{
-    width: 350px;
+@media (max-width: 600px) {
+  .nav{
+    background: red;
+    border-bottom: 10px solid yellow;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    z-index: 100;
+    padding: 10px;
   }
 }
