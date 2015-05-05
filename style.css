@@ -49,6 +49,8 @@ a:hover{
 
 .mobile{
   display: none;
+  margin-top: 30px;
+  font-size: 15pt;
 }
 
 .desktop{
@@ -201,9 +203,11 @@ em{
 }
 
 .pull-right{
+  position: absolute;
+  right: 0;
+  top: 30px;
   display: inline;
-  float: right;
-  margin: 22px 25px 0 0;
+  margin-right: 30px;
 }
 
 #locations{
@@ -287,8 +291,7 @@ em{
 @media (max-width: 879px) {
   .mobile{
     display: inline-block;
-    margin-top: 30px;
-    font-size: 15pt;
+    margin: 10px 0 14px 0;
   }
 
   .mobile:hover .menu {
@@ -303,7 +306,7 @@ em{
 
   .nav span img{
     display: block;
-    margin: 0 auto -60px auto;
+    margin: 0 auto -40px auto;
   }
 
   .menu i{
@@ -360,8 +363,8 @@ em{
 }
 
 .mobile i{
-  margin-top: -40px;
-  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 0;
 }
 
 /* # # # # # Media Queries @ 460px # # # # # */
