@@ -43,6 +43,10 @@ a:hover{
   color: #555;
 }
 
+.nav span img{
+  display: none;
+}
+
 .mobile{
   display: none;
 }
@@ -164,6 +168,21 @@ a:hover{
   padding: 10px;
 }
 
+.footer a i{
+  margin: 0 0 0 0;
+  display: inline;
+  border-bottom: 3px solid white;
+  padding-right: 25px;
+}
+
+.footer .copyright{
+  position: absolute;
+  display: inline;
+  right: 10;
+  padding-right: -10px;
+}
+
+
 em{
   font-style: italic;
 }
@@ -282,6 +301,11 @@ em{
   text-align: left;
 }
 
+.nav span img{
+  display: block;
+  margin: 0 auto -60px auto;
+}
+
 .menu i{
   position: relative;
   z-index: 10;
@@ -318,6 +342,27 @@ em{
   }
 }
 
+.nav span img{
+  display: block;
+  margin: 0 20px -20px auto;
+}
+
+.pull-right{
+  display: none;
+}
+
+.menu {
+  margin: -50px -50px 0 -120px;
+}
+
+.mobile:hover .menu {
+  margin: -50px -100px 0 0;
+}
+
+.mobile i{
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
 
 /* # # # # # Media Queries @ 460px # # # # # */
 
