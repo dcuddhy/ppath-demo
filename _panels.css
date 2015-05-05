@@ -97,10 +97,10 @@
     height: 740px;
   }
   .content#c5{
-    height: 1500px;
+    height: 1450px;
   }
   .section#s5 {
-    height: 750px;
+    height: 740px;
   }
 }
 
@@ -111,7 +111,7 @@
 
 @media (max-width: 1053px) {
   .content#c5{
-    height: 2450px;
+    height: 2400px;
   }
   .section#s5 {
     height: 1700px;
@@ -128,7 +128,7 @@
     height: 1080px;
   }
   .content#c5{
-    height: 2070px;
+    height: 2020px;
   }
   .section#s5 {
     height: 1320px;
