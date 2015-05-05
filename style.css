@@ -43,6 +43,14 @@ a:hover{
   color: #555;
 }
 
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: inline;
+}
+
 .title{
   color: white;
   background: teal;
@@ -242,6 +250,52 @@ em{
 }
 
 
+/* # # # # # Media Queries @ 879px # # # # # */
+
+@media (max-width: 879px) {
+  .mobile{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 15pt;
+  }
+
+
+.menu {
+  text-align: left;
+  padding: 10px 10px 5px 10px;
+  border: 1px solid #555;
+  background: lightgrey;
+  width: 160px;
+  position: absolute;
+  left: -80px;
+  margin: -30px -50px 0 -120px;
+  transition-duration: 0.4s, 0.4s;
+  transition-timing-function: ease-in;
+}
+
+.mobile:hover .menu {
+  transition-timing-function: ease-out;
+  transition-duration: 0.4s, 0.4s;
+  margin: -30px -100px 0 0;
+  left: 0; /* show menu when main area is hovered over */
+  width: 160px;
+  text-align: left;
+}
+
+.menu i{
+  position: relative;
+  z-index: 10;
+  text-align: right;
+  background: lightgrey;
+  padding: 10px;
+  margin-top: -5px;
+  left: 190px;
+}
+
+  .desktop{
+    display: none;
+  }
+}
 
 /* # # # # # Media Queries @ 667px # # # # # */
 
