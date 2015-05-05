@@ -293,10 +293,11 @@ em{
 }
 
 .mobile:hover .menu {
+  display: inline-block;
   transition-timing-function: ease-out;
   transition-duration: 0.4s, 0.4s;
   margin: -30px -100px 0 0;
-  left: 0; /* show menu when main area is hovered over */
+  left: 0;
   width: 160px;
   text-align: left;
 }

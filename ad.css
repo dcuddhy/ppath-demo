@@ -1,0 +1,12 @@
+body{
+  position: relative;
+  background: whitesmoke;
+}
+
+.ad{
+  position: relative;
+  top: 30%;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+}
