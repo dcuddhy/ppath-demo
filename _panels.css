@@ -3,7 +3,7 @@
   z-index:1;
   height:700px;
   width:100%;
-  background-attachment:fixed;    /* this keeps the background in place */
+  background-attachment:fixed;
   background-size:100% 100%;
   background-repeat:no-repeat;
 }
@@ -13,10 +13,10 @@
   position:relative;
   z-index:2;
   background-color:#fff;
-  height:50%;    /* this height difference allows the bg to show through */
+  height:50%;
 }
 
-.content#c1{
+.content#c1 {
   height: 700px;
   background: blue;
   color: red;
@@ -40,25 +40,25 @@
   margin-bottom: 8pt;
 }
 
-.content#c3{
+.content#c3 {
   height: 500px;
   background: lightgrey;
   text-align: center;
 }
 
-#c3 .title{
+#c3 .title {
   margin: -150px -10px 20px -10px;
   height: 120px;
   margin-bottom: 8pt;
 }
 
-.content#c5{
+.content#c5 {
   text-align: center;
   height:1430px;
   background: whitesmoke;
 }
 
-#c5 .title{
+#c5 .title {
   margin: -150px -10px 20px -10px;
   height: 120px;
 }
@@ -93,18 +93,16 @@
   #s3{
     height: 700px;
   }
-  .content#c3{
+  .content#c3 {
     height: 740px;
   }
-  .content#c5{
+  .content#c5 {
     height: 1450px;
   }
   .section#s5 {
     height: 740px;
   }
 }
-
-
 
 
 /* # # # # # Media Queries @ 1053px # # # # # */
@@ -118,16 +116,17 @@
   }
 }
 
+
 /* # # # # # Media Queries @ 907px # # # # # */
 
 @media (max-width: 907px) {
   #s3{
     height: 1040px;
   }
-  .content#c3{
+  .content#c3 {
     height: 1080px;
   }
-  .content#c5{
+  .content#c5 {
     height: 2020px;
   }
   .section#s5 {
@@ -154,17 +153,17 @@
   .content#c2{
     height: 250px;
   }
-  .content#c3#s3{
+  .content#c3#s3 {
     height: 1140px;
   }
-  .content#c3{
+  .content#c3 {
     height: 1180px;
   }
   #c3 .title, #c5 .title {
     height: 190px;
     margin-top: -220px;
   }
-  .content#c5{
+  .content#c5 {
     height: 4700px;
   }
   .section#s5 {
@@ -179,7 +178,7 @@
   .content#c2{
     height: 300px;
   }
-  .content#c5{
+  .content#c5 {
     height: 4300px;
   }
   .section#s5 {
