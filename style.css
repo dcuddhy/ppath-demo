@@ -31,6 +31,20 @@ a:hover {
   text-align: left;
   z-index: 100;
   padding: 10px;
+  height: 64px;
+  transition: height .5s;
+}
+
+.nav.tiny{
+    height: 40px;
+}
+
+.nav.tiny img{
+  height: 40px;
+}
+
+.nav.tiny .pull-right {
+  margin-top: -20px;
 }
 
 .nav a, .info-tile a {
@@ -45,6 +59,8 @@ a:hover {
 
 .nav span img {
   display: none;
+  height: 60px;
+  transition: height .5s;
 }
 
 .mobile {
@@ -55,6 +71,22 @@ a:hover {
 
 .desktop {
   display: inline;
+}
+
+.desktop img{
+  height: 60px;
+  transition: height .5s;
+}
+
+.desktop span{
+  position: fixed;
+  top: 37px;
+  left: 210px;
+}
+
+.nav.tiny .desktop span{
+  transition: top .5s;
+  top: 15px;
 }
 
 .menu {
@@ -208,6 +240,8 @@ em {
   top: 30px;
   display: inline;
   margin-right: 30px;
+  transition: margin-top .5s;
+
 }
 
 #locations {
@@ -221,9 +255,9 @@ em {
 }
 
 
-/* # # # # # Media Queries @ 1244px # # # # # */
+/* # # # # # Media Queries @ 1259px # # # # # */
 
-@media (max-width: 1244px) {
+@media (max-width: 1259px) {
   .info-tile{
     display: inline-block;
     height: 200px;
