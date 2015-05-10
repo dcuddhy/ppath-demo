@@ -82,10 +82,10 @@ a:hover {
   position: fixed;
   top: 37px;
   left: 210px;
+  transition: top .5s;
 }
 
 .nav.tiny .desktop span{
-  transition: top .5s;
   top: 15px;
 }
 
